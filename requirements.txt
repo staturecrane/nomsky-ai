@@ -1,0 +1,4 @@
+pyre-check==0.9.15
+tensorflow==2.9.1
+tensorflow_datasets==4.6.0
+tokenizers==0.12.1
