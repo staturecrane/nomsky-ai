@@ -11,7 +11,7 @@ from nomsky.tokenizers.tokenizer import pre_tokenizer
 
 def generate_dataset():
     dataset: tf.python.data.ops.dataset_ops.PrefetchDataset = tfds.load(
-        "wikipedia/20201201.en", data_dir="/app/data"
+        "lm1b", data_dir="data"
     )["train"]
 
     root_dir: str = "data/local/wikipedia"
