@@ -1,0 +1,7 @@
+datasets
+fastapi
+keras
+keras-nlp
+mwparserfromhell
+qdrant-client[fastembed]
+tensorflow
